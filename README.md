@@ -1,6 +1,6 @@
 # ICS2O-Unit-5-05-JS
 
-[![Kaitlyn Ip's Super Linter](https://github.com/KaitlynIp64/ICS2O-Unit-5-05-JS/workflows/Kaitlyn%20Ip's%20Super%20Linter/badge.svg)](https://github.com/KaitlynIp64/ICS2O-Unit-5-05-JS/actions)
+[![Kaitlyn Ip's Super Linter](https://github.com/KaitlynIp64/ICS2O-Unit-5-05-JS/workflows/Github's%20Super%20Linter/badge.svg)](https://github.com/KaitlynIp64/ICS2O-Unit-5-05-JS/actions)
 
 [![Run on Repl.it](https://repl.it/badge/github/KaitlynIp64/ICS2O-Unit-5-05-JS)](https://repl.it/github/KaitlynIp64/ICS2O-Unit-5-05-JS)
 
