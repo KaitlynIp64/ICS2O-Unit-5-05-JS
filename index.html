@@ -6,7 +6,7 @@
     <meta name="keywords" content="mths, ics2o" />
     <meta name="author" content="Kaitlyn Ip" />
     <meta name="theme-color" content="#FFFFFF" />
-    <title>Eligibility Identification</title>
+    <title>Triangle Identification</title>
     <link rel="canonical" href="https://https://kaitlynip64.github.io/ICS2O-Unit-5-05-JS/" />
     <link rel="manifest" href="/ICS2O-Unit5-05-JS/manifest.webmanifest" />
     <link rel="stylesheet" href="./css/style.css" />
@@ -35,28 +35,43 @@
       <main class="mdl-layout__content">
         <!-- Numeric Textfield -->
         <form action="#">
+          <p>Side A</p>
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="age">
-            <label class="mdl-textfield__label" for="age">Enter Side A...</label>
+            <input
+              class="mdl-textfield__input"
+              type="number" step=".01"
+              id="sideA"
+            />
+            <label class="mdl-textfield__label" for="sideA">Enter Side A ...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
         <!-- Numeric Textfield -->
         <form action="#">
+          <p>Side B</p>
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="age">
-            <label class="mdl-textfield__label" for="age">Enter Side B...</label>
+            <input
+              class="mdl-textfield__input"
+              type="number" step=".01"
+              id="sideB"
+            />
+            <label class="mdl-textfield__label" for="sideB">Enter Side B ...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
         <!-- Numeric Textfield -->
         <form action="#">
+          <p>Side C</p>
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="age">
-            <label class="mdl-textfield__label" for="age">Enter Side C...</label>
+            <input
+              class="mdl-textfield__input"
+              type="number" step=".01"
+              id="sideC"
+            />
+            <label class="mdl-textfield__label" for="sideC">Enter Side C ...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
-        </form>        
+        </form>
         <!-- Raised button with ripple -->
             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick= "myButtonClicked()">
               Identify
