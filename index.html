@@ -39,7 +39,7 @@
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
-              type="number" step=".01"
+              type="number" min="0" step=".01"
               id="sideA"
             />
             <label class="mdl-textfield__label" for="sideA">Enter Side A ...</label>
@@ -52,7 +52,7 @@
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
-              type="number" step=".01"
+              type="number" min="0" step=".01"
               id="sideB"
             />
             <label class="mdl-textfield__label" for="sideB">Enter Side B ...</label>
@@ -65,7 +65,7 @@
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
-              type="number" step=".01"
+              type="number" min="0" oninput="validity.valid||(value='');" step=".01"
               id="sideC"
             />
             <label class="mdl-textfield__label" for="sideC">Enter Side C ...</label>

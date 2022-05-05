@@ -19,17 +19,17 @@ if (navigator.serviceWorker) {
  * Input
  */
 function myButtonClicked() {
-  const sideA = parseFloat(document.getElementById("sideA").value)
-  const sideB = parseFloat(document.getElementById("sideB").value)
-  const sideC = parseFloat(document.getElementById("sideC").value)
+  var sideA = document.getElementById("sideA").value;
+  var sideB = document.getElementById("sideB").value;
+  var sideC = document.getElementById("sideC").value;
   // process
-  if ("sideA" == "sideB" || "sideB" == "sideC" || "sideA" == "sideC") {
-      document.getElementById("answer").innerHTML= "This is an isosceles triangle."
-  } else if (sideA == sideB == sideC) {
-      document.getElementById("answer").innerHTML= "This is an equilateral triangle."
-  } else if (sideA != sideB != sideC) {
-      document.getElementById("answer").innerHTML= "This is a scalene triangle."
+  if (sideA == sideB && sideB == sideC) {
+    document.getElementById("answer").innerHTML =
+      "This is an equilateral triangle.";
+  } else if (sideA == sideB || sideB == sideC || sideA == sideC) {
+    document.getElementById("answer").innerHTML =
+      "This is an isosceles triangle.";
   } else {
-      document.getElementById("answer").innerHTML= "This is not a triangle."
+    document.getElementById("answer").innerHTML = "This is a scalene triangle.";
   }
 }
