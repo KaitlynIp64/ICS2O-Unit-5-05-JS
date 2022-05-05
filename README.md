@@ -1,4 +1,4 @@
-# ICS2O-Unit-3-03-JS
+# ICS2O-Unit-5-05-JS
 
 [![GitHub's Super Linter](https://github.com/KaitlynIp64//ICS2O-Unit-5-05-JS/workflows/GitHub's%20Super%20Linter/badge.svg)](https://github.com/KaitlynIp64//ICS2O-Unit-5-05-JS/actions)
 
