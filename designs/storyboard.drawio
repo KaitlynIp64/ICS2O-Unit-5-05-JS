@@ -1,0 +1,40 @@
+<mxfile host="65bd71144e">
+    <diagram id="W9Ywp7jLeNPQNNm_EkAv" name="Page-1">
+        <mxGraphModel dx="594" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="30" width="370" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;font style=&quot;font-size: 19px&quot;&gt;Identifying Triangles&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="40" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Side A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="70" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Side B&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="150" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Side C&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="230" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="12" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="110" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="14" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="270" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="12" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="190" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Identify" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="310" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="This is an isosceles triangle." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="340" width="180" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
